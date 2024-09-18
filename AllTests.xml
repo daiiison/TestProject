@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Smoke" verbose="1" thread-count="1" parallel="methods">
+
+
+    <test name = "HomePage">
+        <classes>
+            <class name = "Tests.TestForHome" />
+        </classes>
+    </test>
+    <test name = "CompsPage">
+        <classes>
+            <class name = "Tests.TestForComputer" />
+        </classes>
+    </test>
+    <test name = "PhonePage">
+        <classes>
+            <class name = "Tests.TestForPhone" />
+        </classes>
+    </test>
+
+</suite>
